@@ -12,8 +12,10 @@
             Return False
         End If
 
-        MsgBox("Matriculado com sucesso!", MsgBoxStyle.OkOnly, "Confirmação de matrícula")
+        MsgBox("Aluno(a): " & aluno & vbCrLf & "Curso: " & mainForm.cursoChecked & vbCrLf & "Disciplina: " & mainForm.disciplinaCadastrada, MsgBoxStyle.OkOnly, "Confirmação de matrícula")
         Return True
     End Function
+
+
 
 End Module
